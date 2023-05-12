@@ -91,7 +91,7 @@ function soChanCuoiCung() {
 function doiViTri() {
     var viTri1 = domId('viTri1').value * 1;
     var viTri2 = domId('viTri2').value * 1;
-    if (viTri1 >= listNumber.length || viTri2 >= listNumber.length || viTri1 == 0 || viTri2 == 0) {
+    if (viTri1 >= listNumber.length || viTri2 >= listNumber.length ) {
         alert('Vui lòng nhập vị trí hợp lệ!')
     } else {
         var temp = listNumber[viTri1];
